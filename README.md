@@ -1,4 +1,4 @@
-# Tic Tac Toe AI
+# Task-1 Tic Tac Toe AI
 
 ## Overview
 
@@ -27,7 +27,7 @@ This project is a simple Tic Tac Toe game built using Python's Tkinter library. 
 
 
 
-# YOLOv5 Object Detection System
+# Task-2 YOLOv5 Object Detection System
 
 ## Overview
 
