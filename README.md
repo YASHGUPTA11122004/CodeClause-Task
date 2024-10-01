@@ -80,7 +80,7 @@ Make sure you have the following installed:
 
 3. Use the control panel to start or stop the video stream and view real-time object detection results.
 
-# Gesture Recognition System
+# Task-3 Gesture Recognition System
 
 ## Overview
 The Gesture Recognition System is an advanced application designed to recognize and classify hand gestures in real-time using deep learning techniques. Leveraging MediaPipe for hand tracking and TensorFlow for model training, this system facilitates intuitive interactions with devices through gesture control.
