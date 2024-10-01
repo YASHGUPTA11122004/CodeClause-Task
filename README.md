@@ -79,3 +79,59 @@ Make sure you have the following installed:
 2. Open your web browser and navigate to `http://localhost:8501` to access the application.
 
 3. Use the control panel to start or stop the video stream and view real-time object detection results.
+
+# Gesture Recognition System
+
+## Overview
+The Gesture Recognition System is an advanced application designed to recognize and classify hand gestures in real-time using deep learning techniques. Leveraging MediaPipe for hand tracking and TensorFlow for model training, this system facilitates intuitive interactions with devices through gesture control.
+
+## Features
+- Real-time hand gesture recognition using a webcam
+- Ability to recognize multiple gestures, such as "done", "hello", "thank you", and "yes"
+- Data collection for training models from captured video frames
+- Visualization of hand landmarks on the video feed
+
+## Technologies Used
+- **Python**: Main programming language
+- **OpenCV**: For image and video processing
+- **MediaPipe**: For hand landmark detection
+- **TensorFlow/Keras**: For building and training the deep learning model
+- **NumPy**: For numerical operations
+
+## How to Use
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/yourusername/gesture-recognition-system.git
+   cd gesture-recognition-system
+   ```
+
+2. **Install Dependencies:**
+   Ensure you have Python installed, then run:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Collect Data:**
+   Run the data collection script to gather gesture samples:
+   ```bash
+   python collect_data.py
+   ```
+   Follow the on-screen instructions to capture gesture frames.
+
+4. **Train the Model:**
+   Once data collection is complete, train the model using:
+   ```bash
+   python train_model.py
+   ```
+
+5. **Run the Gesture Recognition:**
+   After training, start the gesture recognition application:
+   ```bash
+   python recognize_gestures.py
+   ```
+   Position your camera to capture your gestures, and the system will predict and display the recognized gesture.
+
+## Example Usage
+- To collect data, ensure you follow the prompts on the screen.
+- For training, adjust parameters in `train_model.py` as needed.
+- To exit any running application, press 'q'.
